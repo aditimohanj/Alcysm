@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1349CA912E25F66900B9666C /* ARKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1349CA902E25F66900B9666C /* ARKit.framework */; };
+		1349CA932E25F67100B9666C /* RealityKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1349CA922E25F67100B9666C /* RealityKit.framework */; };
+		1349CBE32E2B27F600B9666C /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1349CBE22E2B27F600B9666C /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1349CA732E25F64300B9666C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1349CA5D2E25F64100B9666C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1349CA642E25F64100B9666C;
+			remoteInfo = Alcysm;
+		};
+		1349CA7D2E25F64300B9666C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1349CA5D2E25F64100B9666C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1349CA642E25F64100B9666C;
+			remoteInfo = Alcysm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1349CA652E25F64100B9666C /* Alcysm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alcysm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1349CA722E25F64300B9666C /* AlcysmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcysmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1349CA7C2E25F64300B9666C /* AlcysmUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcysmUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1349CA902E25F66900B9666C /* ARKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ARKit.framework; path = System/Library/Frameworks/ARKit.framework; sourceTree = SDKROOT; };
+		1349CA922E25F67100B9666C /* RealityKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealityKit.framework; path = System/Library/Frameworks/RealityKit.framework; sourceTree = SDKROOT; };
+		1349CBE22E2B27F600B9666C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1349CA672E25F64100B9666C /* Alcysm */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Alcysm;
+			sourceTree = "<group>";
+		};
+		1349CA752E25F64300B9666C /* AlcysmTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AlcysmTests;
+			sourceTree = "<group>";
+		};
+		1349CA7F2E25F64300B9666C /* AlcysmUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = AlcysmUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1349CA622E25F64100B9666C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1349CA932E25F67100B9666C /* RealityKit.framework in Frameworks */,
+				1349CBE32E2B27F600B9666C /* CoreData.framework in Frameworks */,
+				1349CA912E25F66900B9666C /* ARKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1349CA6F2E25F64300B9666C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1349CA792E25F64300B9666C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1349CA5C2E25F64100B9666C = {
+			isa = PBXGroup;
+			children = (
+				1349CA672E25F64100B9666C /* Alcysm */,
+				1349CA752E25F64300B9666C /* AlcysmTests */,
+				1349CA7F2E25F64300B9666C /* AlcysmUITests */,
+				1349CA8F2E25F66900B9666C /* Frameworks */,
+				1349CA662E25F64100B9666C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1349CA662E25F64100B9666C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1349CA652E25F64100B9666C /* Alcysm.app */,
+				1349CA722E25F64300B9666C /* AlcysmTests.xctest */,
+				1349CA7C2E25F64300B9666C /* AlcysmUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1349CA8F2E25F66900B9666C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1349CBE22E2B27F600B9666C /* CoreData.framework */,
+				1349CA922E25F67100B9666C /* RealityKit.framework */,
+				1349CA902E25F66900B9666C /* ARKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1349CA642E25F64100B9666C /* Alcysm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1349CA862E25F64300B9666C /* Build configuration list for PBXNativeTarget "Alcysm" */;
+			buildPhases = (
+				1349CA612E25F64100B9666C /* Sources */,
+				1349CA622E25F64100B9666C /* Frameworks */,
+				1349CA632E25F64100B9666C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1349CA672E25F64100B9666C /* Alcysm */,
+			);
+			name = Alcysm;
+			packageProductDependencies = (
+			);
+			productName = Alcysm;
+			productReference = 1349CA652E25F64100B9666C /* Alcysm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1349CA712E25F64300B9666C /* AlcysmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1349CA892E25F64300B9666C /* Build configuration list for PBXNativeTarget "AlcysmTests" */;
+			buildPhases = (
+				1349CA6E2E25F64300B9666C /* Sources */,
+				1349CA6F2E25F64300B9666C /* Frameworks */,
+				1349CA702E25F64300B9666C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1349CA742E25F64300B9666C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1349CA752E25F64300B9666C /* AlcysmTests */,
+			);
+			name = AlcysmTests;
+			packageProductDependencies = (
+			);
+			productName = AlcysmTests;
+			productReference = 1349CA722E25F64300B9666C /* AlcysmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1349CA7B2E25F64300B9666C /* AlcysmUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1349CA8C2E25F64300B9666C /* Build configuration list for PBXNativeTarget "AlcysmUITests" */;
+			buildPhases = (
+				1349CA782E25F64300B9666C /* Sources */,
+				1349CA792E25F64300B9666C /* Frameworks */,
+				1349CA7A2E25F64300B9666C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1349CA7E2E25F64300B9666C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1349CA7F2E25F64300B9666C /* AlcysmUITests */,
+			);
+			name = AlcysmUITests;
+			packageProductDependencies = (
+			);
+			productName = AlcysmUITests;
+			productReference = 1349CA7C2E25F64300B9666C /* AlcysmUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1349CA5D2E25F64100B9666C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					1349CA642E25F64100B9666C = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					1349CA712E25F64300B9666C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1349CA642E25F64100B9666C;
+					};
+					1349CA7B2E25F64300B9666C = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 1349CA642E25F64100B9666C;
+					};
+				};
+			};
+			buildConfigurationList = 1349CA602E25F64100B9666C /* Build configuration list for PBXProject "Alcysm" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1349CA5C2E25F64100B9666C;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1349CA662E25F64100B9666C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1349CA642E25F64100B9666C /* Alcysm */,
+				1349CA712E25F64300B9666C /* AlcysmTests */,
+				1349CA7B2E25F64300B9666C /* AlcysmUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1349CA632E25F64100B9666C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1349CA702E25F64300B9666C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1349CA7A2E25F64300B9666C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1349CA612E25F64100B9666C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1349CA6E2E25F64300B9666C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1349CA782E25F64300B9666C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1349CA742E25F64300B9666C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1349CA642E25F64100B9666C /* Alcysm */;
+			targetProxy = 1349CA732E25F64300B9666C /* PBXContainerItemProxy */;
+		};
+		1349CA7E2E25F64300B9666C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1349CA642E25F64100B9666C /* Alcysm */;
+			targetProxy = 1349CA7D2E25F64300B9666C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1349CA842E25F64300B9666C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1349CA852E25F64300B9666C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1349CA872E25F64300B9666C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Alcysm/Alcysm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amj.Alcysm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1349CA882E25F64300B9666C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Alcysm/Alcysm.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.food-and-drink";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amj.Alcysm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1349CA8A2E25F64300B9666C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amj.AlcysmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcysm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Alcysm";
+			};
+			name = Debug;
+		};
+		1349CA8B2E25F64300B9666C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amj.AlcysmTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Alcysm.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Alcysm";
+			};
+			name = Release;
+		};
+		1349CA8D2E25F64300B9666C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amj.AlcysmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alcysm;
+			};
+			name = Debug;
+		};
+		1349CA8E2E25F64300B9666C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amj.AlcysmUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Alcysm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1349CA602E25F64100B9666C /* Build configuration list for PBXProject "Alcysm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1349CA842E25F64300B9666C /* Debug */,
+				1349CA852E25F64300B9666C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1349CA862E25F64300B9666C /* Build configuration list for PBXNativeTarget "Alcysm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1349CA872E25F64300B9666C /* Debug */,
+				1349CA882E25F64300B9666C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1349CA892E25F64300B9666C /* Build configuration list for PBXNativeTarget "AlcysmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1349CA8A2E25F64300B9666C /* Debug */,
+				1349CA8B2E25F64300B9666C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1349CA8C2E25F64300B9666C /* Build configuration list for PBXNativeTarget "AlcysmUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1349CA8D2E25F64300B9666C /* Debug */,
+				1349CA8E2E25F64300B9666C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1349CA5D2E25F64100B9666C /* Project object */;
+}
